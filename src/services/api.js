@@ -1,6 +1,6 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://health-motivation-backend-2.onrender.com';
 
 const getHeaders = async () => {
   const token = await AsyncStorage.getItem('token');
