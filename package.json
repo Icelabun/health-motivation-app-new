@@ -11,7 +11,7 @@
     "eject": "expo eject",
     "server": "node server/server.js",
     "dev": "concurrently \"npm run server\" \"npm run web\"",
-    "build": "npx expo export:web"
+    "build": "npx expo export -p web"
   },
   "dependencies": {
     "@expo/metro-config": "~0.20.0",
