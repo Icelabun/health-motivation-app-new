@@ -10,7 +10,8 @@
     "web": "expo start --web",
     "eject": "expo eject",
     "server": "node server/server.js",
-    "dev": "concurrently \"npm run server\" \"npm run web\""
+    "dev": "concurrently \"npm run server\" \"npm run web\"",
+    "build": "npx expo export:web"
   },
   "dependencies": {
     "@expo/metro-config": "~0.20.0",
